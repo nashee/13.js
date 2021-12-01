@@ -1,0 +1,26 @@
+.header {
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &__logo {
+        color: white;
+        text-transform: uppercase;
+        letter-spacing: .3rem;
+        
+    }
+    &__nav {
+        display: flex;
+        li {
+            margin-right: 1rem;
+        }
+        a {
+            color: white;
+        }
+    }
+    &__bag {
+        color: white;
+    }
+}
